@@ -1,0 +1,81 @@
+.page {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px 30px;
+  padding-top: 130px;
+}
+
+.page .profile {
+  display: flex;
+  flex-direction: column;
+}
+.page .profile img {
+  width: 240px;
+}
+.page .profile .contacts {
+  font-size: 20px;
+  color: #4b2324;
+}
+.page .profile .contacts .name {
+  font-weight: bold;
+}
+.page .upgrade {
+  width: 285px;
+  background-color: #4b2324;
+  border-radius: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.page .upgrade .title {
+  color: #ebc5d0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.page .upgrade .squirrel {
+  margin: 10px 0px;
+}
+.page .upgrade .squirrel img {
+  width: 150px;
+}
+.page .upgrade .info {
+  width: 100%;
+  background-color: #f8f4eb;
+  padding: 15px 25px;
+  border-radius: 32.89px;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.page .upgrade .info .row .update,
+.page .upgrade .info .row .five,
+.page .upgrade .info .row .drink {
+  font-weight: bold;
+}
+.page .upgrade .info .row .free {
+  color: #ebc5d0;
+}
+.page .calendar_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.page .calendar_wrapper .title {
+  color: #4b2324;
+  font-weight: 600;
+  font-size: 28px;
+}
+.page .calendar_wrapper .title {
+  position: absolute;
+  top: -100px;
+}
+
+.page .calendar_wrapper .calendar img {
+  width: 660px;
+}
